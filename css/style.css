@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-color: #ffb6c1;
+    background-color: darkgray;
     padding: 20px;
 }
 
@@ -20,8 +20,21 @@
    
 }
 
-.container.bar {
+.bar {
     background-color: lightgrey;
     padding: 20px;
     margin: 0px;
+   
+}
+
+.list-style li{
+    list-style-type: none;    
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  
 }
