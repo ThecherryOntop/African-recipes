@@ -10,13 +10,13 @@
 }
 
 .header {
-    border: 3px solid #ffc0cb;
-    margin-top: 30px;
-    width: 300px;
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
+   
+    margin: 10px;
+    max-width: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     text-align: center;
+    color: lightblue;
    
 }
 
