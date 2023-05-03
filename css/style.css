@@ -7,20 +7,26 @@
 .container {
     background-color: #a9a9a9;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .header {
-   
     margin: 10px;
-    max-width: fit-content;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    text-align: center;
     color:green;
-    font-weight: bolder;
+    font-weight: bolder; 
+    display: flex; 
+    justify-content: center; 
    
 }
 
+.font {
+    font-size: 18px;
+  
+    
+}
 .bar {
     background-color: lightgrey;
     padding: 20px;
@@ -29,7 +35,9 @@
 }
 
 .list-style li{
-    list-style-type: none;    
+    list-style-type: none;
+    padding: 5px;
+         
 }
 
 .link {
@@ -37,17 +45,45 @@
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-  
+}
+
+a:hover {
+    background-color: yellow;
 }
 
 .link-style {
     background-color: #36454f;
-    margin-top: 20px;
+    margin: 28px;
     padding: 10px;
     max-width: fit-content;
-
+    border-radius: 8px;
+}
+.recipe {
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 8px;   
 }
 
-.font {
-    font-size:large;
+.image-container {
+    margin: 50px;
+    border-radius: 8px;
+    background-color: yellowgreen;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
+
+.image {
+    margin: 4px;
+    width: 100%; 
+    border: 2px solid yellowgreen;
+    border-radius: 5px;  
+}
+
+.detail {
+    padding:10px;
+    list-style-position: inside;
+}
+
