@@ -9,6 +9,9 @@
     padding: 20px;
     display: flex;
     justify-content: center;
+    /* changed  below*/
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header {
