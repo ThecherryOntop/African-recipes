@@ -1,19 +1,19 @@
+/* applies styling to all elements */
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+/* styles the background of the web pages */
 .container {
-    background-color: #a9a9a9;
+    background-color: #d8c1c1;
     padding: 20px;
     display: flex;
-    justify-content: center;
-    /* changed  below*/
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: center;     
 }
 
+/* styles all headers */
 .header {
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,56 +21,59 @@
     color:green;
     font-weight: bolder; 
     display: flex; 
-    justify-content: center; 
-   
+    justify-content: center;       
 }
 
+/* updates the fonts of all <h3> headers */
 .font {
-    font-size: 18px;
-  
-    
-}
-.bar {
-    background-color: lightgrey;
-    padding: 20px;
-    margin: 0px;
-   
+    font-size: 18px;   
 }
 
+/* adds styling to the nav bar */
+.bar {
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 0px;   
+}
+
+/* adds styling to the unordered list of the recipe links */
 .list-style li{
     list-style-type: none;
-    padding: 5px;
-         
+    padding: 5px;        
 }
 
+/* adds style to each recipe link */
 .link {
     text-decoration: none;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-weight: bold;   
 }
 
+/* adds hover styling to all <a> tags and links */
 a:hover {
     background-color: yellow;
 }
 
+/* styles the box that holds the recipe links */
 .link-style {
     background-color: #36454f;
-    margin: 28px;
+    /*margin: 28px;*/
     padding: 10px;
-    max-width: fit-content;
-    border-radius: 8px;
-}
-.recipe {
-    background-color: #fff;
-    margin: 30px;
-    border-radius: 8px;   
+    border-radius: 8px; 
 }
 
+/* gives layout to the boxes that holds each recipe instruction and header */
+.recipe-container {
+    margin: 30px;
+    border-radius: 8px; 
+}
+
+/* styles the boxes that holds each recipe instruction and the images */
 .image-container {
     margin: 50px;
     border-radius: 8px;
-    background-color: yellowgreen;
+    background-color: #a9a9a9;
     width: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -78,13 +81,15 @@ a:hover {
     justify-content: center;
 }
 
+/* adds styling to all images */
 .image {
     margin: 4px;
     width: 100%; 
-    border: 2px solid yellowgreen;
+    border: 5px solid #a9a9a9;
     border-radius: 5px;  
 }
 
+/* adds extra styling to the recipe instructions */
 .detail {
     padding:10px;
     list-style-position: inside;
