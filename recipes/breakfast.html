@@ -9,69 +9,83 @@
 </head>
 <body>
 
+    <!-- navigation bar-->
     <nav class="bar">
         <ul class="list-style">
             <li> 
                 <a class="link" href="../index.html">Home</a>
             </li>
-        </ul>
-        
+        </ul>   
     </nav>
    
+    <!--the pink container that holds all other containers-->
     <div class="container">
      
-        
-        <div class="header"><h1>Scrambled Eggs</h1></div>
-        
+        <!-- the container that controls the layout of the recipes instruction boxes and the headers-->
+        <div class="recipe-container">
             
-        <div>   
-            <p>
-                <img src="./img/scrambled-eggs-1.jpg" width="400" alt="Scrambles Eggs">
-            </p>
-        </div>
-        <div>
-            <h3 class="header font">What is scrambled eggs?</h3>
+            <!-- scrambled eggs header-->
+            <div class="header">
+                <h1>Scrambled Eggs</h1>
+            </div>
+            
+             <!-- the container that holds the image-->    
+            <div class="image-container">    
+                    <img class="image" src="./img/scrambled-eggs-1.jpg" width="400" alt="Scrambled Eggs">
+            </div>
+            
+            <!-- what is scrambled eggs header -->
+            <div class="header font">
+                <h3>What is scrambled eggs?</h3>
+            </div>
 
-            <p>
-                Scrambled eggs are one of the little luxuries of everyday life. They are one of many variations of cook/fried eggs. When I make them, I savor every bite. They’re soft and creamy, rich and flavorful, and they just so happen to cook in under 5 minutes.
-                When it comes to scrambled eggs, “best” is a matter of personal taste. You can load them up with butter or sour cream, or just keep them simple.
-            </p>
-        </div>
-        <div>
-            <h3 class="header font">Ingredients</h3>
-            <p>
-                <ul>
-                    <li>Eggs, of course! Use the freshest ones you can find, from a local source if possible</li>
-                    <li>Milk, plant milk, or water – I whisk a little into the eggs before I cook them. This additional moisture makes the eggs extra-soft and creamy.</li>
-                    <li>Extra-virgin olive oil or butter, for the pan. I always use olive oil because it’s what I keep handy. But butter works well too.</li>
-                    <li>Salt.</li>
-                    <li>And pepper! To add depth of flavor to these simple scrambled eggs.</li>
-                </ul>
-            </p>
-        </div>
-        <div>
-            <h3 class="header font">Instructions</h3>
-            <p>
+            <!-- description of scrambled eggs-->
+            <div class="image-container detail">
+                    Scrambled eggs are one of the little luxuries of everyday life. They are one of many variations of cook/fried eggs. When I make them, I savor every bite. They’re soft and creamy, rich and flavorful, and they just so happen to cook in under 5 minutes.
+                    When it comes to scrambled eggs, “best” is a matter of personal taste. You can load them up with butter or sour cream, or just keep them simple.
+            </div>
+            <!--ingredients header-->
+            <div class="header font">
+                <h3 class="header font">Ingredients</h3>
+            </div>    
+            
+            <!-- ingredients list-->
+            <div class="image-container detail">    
+               <p>
+                    <ul>
+                        <li>Eggs, of course! Use the freshest ones you can find, from a local source if possible</li>
+                        <li>Milk, plant milk, or water – I whisk a little into the eggs before I cook them. This additional moisture makes the eggs extra-soft and creamy.</li>
+                        <li>Extra-virgin olive oil or butter, for the pan. I always use olive oil because it’s what I keep handy. But butter works well too.</li>
+                        <li>Salt.</li>
+                        <li>And pepper! To add depth of flavor to these simple scrambled eggs.</li>
+                    </ul>
+                </p>
+            </div>
+            
+            <!-- the instruction header-->
+            <div class="header font">
+                <h3>Instructions</h3>
+            </div>
+                
+            <!--recipe cooking steps-->
+            <div class="image-container detail">
                 <ol>
                     <li>First, beat the eggs. Place them in a medium bowl, and whisk until the yolk and whites are thoroughly combined.Add the milk or water, and whisk again! The beaten eggs should be an even yellow color, with no translucent spots or streaks.</li>
                     <li>Next, gently preheat the pan. Brush a small nonstick skillet with olive oil, or melt a little butter inside it. Warm the skillet over medium heat.</li>
                     <li>Finally, cook. Pour in the egg mixture, and let it cook for a few seconds, undisturbed. Then, pull a rubber spatula across the bottom of the pan to form large, soft curds of scrambled eggs.</li>
-                </ol>
-            </p>
-            <p>
-                    Continue cooking over medium-low heat, folding and stirring the eggs every few seconds. As you work, make sure to scrape your spatula along the bottom and sides of the pan to continue to form curds and to prevent any part of the eggs from drying out.
-            </p>
-            <p>
-                For a soft, creamy scramble, stop when the eggs are mostly set, but a little liquid egg remains. Remove the pan from the heat, and season to taste with salt and pepper.
-            </p>
+                    <li>Continue cooking over medium-low heat, folding and stirring the eggs every few seconds. As you work, make sure to scrape your spatula along the bottom and sides of the pan to continue to form curds and to prevent any part of the eggs from drying out.</li>
+                    <li>For a soft, creamy scramble, stop when the eggs are mostly set, but a little liquid egg remains. Remove the pan from the heat, and season to taste with salt and pepper.</li>
+                </ol>    
+            </div>
+            
+             <!-- links to other recipes -->
+            <div class="link-style">
+                <ul class="list-style" >
+                    <li><a class="link" href="./lunch.html">Lunch</a></li>
+                    <li><a class="link" href="./dinner.html">Dinner</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="link-style">
-            <ul class="list-style" >
-                <li><a class="link" href="./lunch.html">Lunch</a></li>
-                <li><a class="link" href="./dinner.html">Dinner</a></li>
-            </ul>
-        </div>
-    </div>
-    
+    </div>    
 </body>
 </html>
